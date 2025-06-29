@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Montaña Rusa</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://serverapolo.ddns.net/img/rusa.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  </head>
+  <body>
+    <!-- Contenedor de la notificación -->
+    <div id="notificacion">
+      <span class="cerrar" id="cerrarNotificacion">&times;</span>
+      <strong>¡Bienvenido!</strong> Los Pedidos se pueden recoger desde las
+      primeras horas del dia.
+    </div>
+
+    <!-- Header Section -->
+    <header>
+      <div class="logo-container">
+        <p class="pizzeria-name">La Montaña Rusa</p>
+      </div>
+      <div class="opening-status" id="openingStatus">
+        <i class="fas fa-door-open" id="doorIcon"></i>
+        <span id="statusText">Abierto</span>
+      </div>
+    </header>
+
+    <!-- Botón para volver arriba -->
+    <div class="scroll-top-btn" id="scrollTopBtn">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container">
+      <section class="hero" id="hero">
+        <h1>¡Sabor en cada curva!</h1>
+        <p>
+          "Descubre nuestra exquisita selección de pizzas. Cada bocado es una
+          experiencia única que te transportará a las alturas del sabor
+          italiano".
+        </p>
+      </section>
+
+      <!-- Sección de Productos -->
+      <section class="category-section" id="productos">
+        <h2 class="section-title">
+          <i class="fas fa-pizza-slice"></i>
+          <p>Nuestro Menú</p>
+        </h2>
+        <div class="product-grid" id="productGrid"></div>
+
+        <!-- Botón de llamada al final -->
+        <div class="call-button-container">
+          <a href="tel:+5353910527" class="call-button">
+            <i class="fas fa-phone"></i> Llamar para pedidos
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <h3>Pizzería La Montaña Rusa</h3>
+        <p>¡Disfruta del viaje gastronómico más emocionante!</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/g/16Uxv9XBHV/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </div>
+        <p class="copyright">
+          © 2025 Pizzería La Montaña Rusa. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <script></script>
+  </body>
+</html>
