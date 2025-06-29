@@ -69,7 +69,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   // Ocultar automáticamente después de 5 segundos
   setTimeout(() => {
     notificacion.style.display = "none";
-  }, 3000);
+  }, 5000);
 
   // Cerrar manualmente
   document
